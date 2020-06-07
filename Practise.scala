@@ -11,8 +11,9 @@ object Practise {
     
     print("Enter the number of coloumns: ")
     var y:Int=scala.io.StdIn.readInt()
-    //println()
-    
+
+    print("Enter values for 2D array:")
+    println()
     var myArr=Array.ofDim[Int](x,y)
     
     for(i<-0 until x)
